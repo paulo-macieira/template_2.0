@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/11/2018, 09:35:44
+    Author     : Paulo Henrique Machado
+*/
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+    display: flex;
+    height: 85vh;
+    padding: 32px 0;
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+.foto{width: 230px;}
+
+.form-content{display: flex;}
+
+#nome{
+    width: 430px;
+    height: 50px;
+    font-size: 20px;
+}
+#ra{
+    width: 430px;
+    height: 50px;
+    font-size: 20px;
+}
+#curso{
+    width: 430px;
+    height: 50px;
+    font-size: 20px;
+}
+#CPF{
+    width: 430px;
+    height: 50px;
+    font-size: 20px;
+}
+#Email{
+    width: 430px;
+    height: 50px;
+    font-size: 20px;
+}
+#Situção_matrícula{
+    width: 430px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.form-line{margin: 22px 24px 15px;}
+
+.btn-success{
+    padding: 8px 389px;
+    margin: 3px 39px;
+    font-size: 18px;
+}
+
+.mt-table{ margin-top: 35px;}
+
+.btn-circle.btn-xl {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 10px 16px;
+    margin: 120px auto;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 50px;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;} 
+}
+
