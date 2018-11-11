@@ -63,15 +63,25 @@ and open the template in the editor.
     font-size: 20px;
 }
 
-.form-line{margin: 22px 24px 15px;}
+.form-line{ margin: 0px 10px;}
+
+.line{
+    width: 908px;
+    margin: 0 auto;
+}
+
+.table>tbody>tr>th, .table>tbody>tr>td{ text-align: center}
+
+.content-table{
+    margin: 50px 0;
+    border: 1px solid #888;
+    border-radius: 8px;
+}
 
 .btn-success{
     padding: 8px 389px;
-    margin: 3px 39px;
     font-size: 18px;
 }
-
-.mt-table{ margin-top: 35px;}
 
 .btn-circle.btn-xl {
     display: block;
